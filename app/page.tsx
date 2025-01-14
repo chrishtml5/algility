@@ -16,6 +16,7 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
+import confetti from 'canvas-confetti';
 
 
 const services = [
@@ -84,9 +85,12 @@ export default function Home() {
 
         <div className="absolute right-1/2 translate-x-1/2 transform">
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
-            <Link href={"/showcase"} className="hover:text-[#15803d]">
+            {/* <Link href={"/showcase"} className="hover:text-[#15803d]">
               Showcase
-            </Link>
+            </Link> */}
+            <span className="hover:text-[#15803d]">
+              Coming Soon
+            </span>
 
             <ScrollLink
               to="services"
@@ -183,21 +187,27 @@ export default function Home() {
             >
               Book a Call
             </Link>
-            <Link
-              href={"/showcase"}
+            <button
+              onClick={() => {
+                confetti({
+                  particleCount: 100,
+                  spread: 70,
+                  origin: { y: 0.6 }
+                });
+              }}
               className="
               bg-white
-   py-3 
-   px-10
-   md:px-16
-      md:text-xl
-        border-4
-        border-black
-        rounded-[6px]
-        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
+              py-3 
+              px-10
+              md:px-16
+              md:text-xl
+              border-4
+              border-black
+              rounded-[6px]
+              hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)]"
             >
-              Showcase
-            </Link>
+              Coming Soon
+            </button>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
