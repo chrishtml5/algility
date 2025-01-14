@@ -6,6 +6,7 @@ import { FcGoogle } from "react-icons/fc";
 export function AnimatedShinyTextDemo() {
   return (
     <div className="z-10 flex items-center md:justify-center">
+      {/* Temporarily hiding the stars and reviews section
       <div
         className={cn(
           "group rounded-full text-base text-white transition-all ease-in",
@@ -34,6 +35,7 @@ export function AnimatedShinyTextDemo() {
           </div>
         </AnimatedShinyText>
       </div>
+      */}
     </div>
   );
 }

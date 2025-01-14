@@ -32,7 +32,7 @@ xl:w-4/5
     >
       <Link href="/">
       <Image
-        src="/logo/logo.webp"
+        src="/logo/logo.png"
         alt="Bird Logo"
         width={1000}
         height={1000}
@@ -45,18 +45,18 @@ xl:w-4/5
           <Link
             href="/showcase"
             className="
-          hover:text-blue-500
+          hover:text-[#15803d]
           "
           >
             Showcase
           </Link>
-             <Link href="/" className="hover:text-blue-500">
+             <Link href="/" className="hover:text-[#15803d]">
             Services
           </Link>
-          <Link href="/" className="hover:text-blue-500">
+          <Link href="/" className="hover:text-[#15803d]">
         Process
           </Link>
-          <Link href="/" className="hover:text-blue-500">
+          <Link href="/" className="hover:text-[#15803d]">
             Guarentees
           </Link>
   
@@ -67,7 +67,6 @@ xl:w-4/5
       <div className="flex items-center gap-x-4">
       <a href="tel:5193191562" className="hidden xl:flex">
               <button className="px-4 py-2  rounded-md flex items-center gap-x-3 ">
-            (519)-319-1562
               </button>
             </a>
 
@@ -76,7 +75,7 @@ xl:w-4/5
       href={"/meeting"}
         className="py-3 px-6
       text-lg
-      hover:bg-[#abcbff] 
+      hover:bg-[#15803d] 
       rounded-[6px]
       border-2 
       border-black 

@@ -74,24 +74,24 @@ export default function Home() {
       >
         <Link href={"/"}>
           <Image
-            src={"/logo/logo.webp"}
+            src={"/logo/logo.png"}
             alt="Logo"
             width={1000}
             height={1000}
-            className="w-28"
+            className="w-32"
           />
         </Link>
 
         <div className="absolute right-1/2 translate-x-1/2 transform">
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
-            <Link href={"/showcase"} className="hover:text-blue-500">
+            <Link href={"/showcase"} className="hover:text-[#15803d]">
               Showcase
             </Link>
 
             <ScrollLink
               to="services"
               smooth={true}
-              className="hover:text-blue-500"
+              className="hover:text-[#15803d]"
             >
               Services
             </ScrollLink>
@@ -99,7 +99,7 @@ export default function Home() {
             <ScrollLink
               to="process"
               smooth={true}
-              className="hover:text-blue-500"
+              className="hover:text-[#15803d]"
             >
               Process
             </ScrollLink>
@@ -107,7 +107,7 @@ export default function Home() {
             <ScrollLink
               to="guarentees"
               smooth={true}
-              className="hover:text-blue-500"
+              className="hover:text-[#15803d]"
             >
               Guarentees
             </ScrollLink>
@@ -117,7 +117,6 @@ export default function Home() {
         <div className="flex items-center gap-x-4">
           <a href="tel:519400200" className="hidden lg:flex">
             <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              (519)-400-200
             </button>
           </a>
 
@@ -127,7 +126,7 @@ export default function Home() {
   py-3 
   px-6
   text-lg 
-  hover:bg-[#abcbff]
+  hover:bg-[#15803d]
   rounded-[6px]
   border-2
   border-black
@@ -171,7 +170,7 @@ export default function Home() {
             px-10
             md:px-16
       md:text-xl
-      hover:bg-[#abcbff] 
+      hover:bg-[#15803d] 
       rounded-[6px]
       border-2 
       border-black 
@@ -202,27 +201,27 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <BoxReveal boxColor={"#134023"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
+                <PiCheckBold className="text-xl text-[#15803d]" />
                 Design
               </p>
             </BoxReveal>
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <BoxReveal boxColor={"#134023"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
+                <PiCheckBold className="text-xl text-[#15803d]" />
                 Development
               </p>
             </BoxReveal>
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <BoxReveal boxColor={"#134023"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
+                <PiCheckBold className="text-xl text-[#15803d]" />
                 Marketing
               </p>
             </BoxReveal>
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <BoxReveal boxColor={"#134023"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
+                <PiCheckBold className="text-xl text-[#15803d]" />
                 Strategy
               </p>
             </BoxReveal>
@@ -231,13 +230,13 @@ export default function Home() {
           <div className="md:flex items-center justify-between gap-y-4 my-10 gap-x-28 mx-auto">
             <div className="md:w-2/5">
               <h1 className="text-2xl font-medium text-gray-600 w-4/5">
-                Trusted by fast moving brands worldwide
+                Trusted by brands across the United States
               </h1>
 
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
-                  <h1 className="text-blue-500 text-3xl md:text-5xl">
-                    <NumberTicker value={1000} /> +
+                  <h1 className="text-[#15803d] text-3xl md:text-5xl">
+                    <NumberTicker value={20} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Happy Clients
                     </p>
@@ -247,8 +246,8 @@ export default function Home() {
                 <div className="w-px bg-gray-300 self-stretch"></div>
 
                 <div className="flex-1 min-w-0">
-                  <h1 className="text-blue-500 text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
-                    <NumberTicker value={100} /> +
+                  <h1 className="text-[#15803d] text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
+                    <NumberTicker value={25} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Projects Completed
                     </p>
@@ -256,23 +255,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            <section className="overflow-hidden mt-10 md:w-4/5">
-              <InfiniteMovingLogos
-                speed="slow"
-                direction="left"
-                items={[
-                  {
-                    logo: "/logo/logo.webp",
-                    name: "Logo",
-                  },
-                  {
-                    logo: "/logo/logo.webp",
-                    name: "Logo",
-                  },
-                ]}
-              />
-            </section>
           </div>
         </div>
       </main>
@@ -283,7 +265,7 @@ export default function Home() {
           <WordPullUpDemo />
         </h1>
         <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500">
-        All of our services are designed to help your business stand out 
+          All of our services are designed to help your business stand out
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
@@ -315,7 +297,7 @@ export default function Home() {
         <main className="md:px-0 mx-6 md:mx-auto">
         <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
         Our{" "}
-            <span className="text-blue-500 flex gap-x-1 items-center">
+            <span className="text-[#15803d] flex gap-x-1 items-center">
               {" "}
               <Image
                 src={"/icons/squiggle.svg"}
@@ -400,22 +382,22 @@ export default function Home() {
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
             <Image
-              src={"/logo/logo.webp"}
+              src={"/logo/logo.png"}
               width={10000}
               height={10000}
-              className="w-40"
+              className="w-32"
               alt="image"
             />{" "}
           </h1>
-          <p className="text-left  text-xl  text-gray-500">519-200-5000</p>
+          <p className="text-left  text-xl  text-gray-500"></p>
           <p className="text-left  text-xl  text-gray-500">
-            admin@birdsoftware.ca
+            hello@algility.com
           </p>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Bird. All Rights Reserved.
-          <Link href="/" className="text-blue-500">
+          © 2025 Algility. All Rights Reserved.
+          <Link href="/" className="text-[#15803d]">
             Privacy Policy
           </Link>
         </div>
