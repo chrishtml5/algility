@@ -77,9 +77,10 @@ export default function Home() {
           <Image
             src={"/logo/logo.png"}
             alt="Logo"
-            width={1000}
-            height={1000}
+            width={128}
+            height={40}
             className="w-32"
+            priority
           />
         </Link>
 
