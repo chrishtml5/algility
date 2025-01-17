@@ -70,7 +70,7 @@ export default function Home() {
       <Element
         name="top"
         className="overflow-hidden rounded-[6px] top-5 sticky md:mx-auto z-50 
-   xl:w-4/5 2xl:w-[68%] bg-white flex items-center 
+   xl:w-4/5 2xl:w-[68%] bg-white flex items-center h-[80px]
    justify-between py-6 px-4 md:px-8 mx-6"
       >
         <Link href={"/"}>
