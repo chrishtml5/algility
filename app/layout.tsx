@@ -6,8 +6,8 @@ import { Analytics } from "@vercel/analytics/react";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Algility | Design & Development Studio",
-  description: "Grow your business with Algility, a design & development studio.",
+  title: "Algility | Artificial Intelligence Studio",
+  description: "Automate your business with Algility, a Artificial Intelligence studio.",
   openGraph: {
     images: [
       {
