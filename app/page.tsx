@@ -22,39 +22,39 @@ import confetti from 'canvas-confetti';
 const services = [
   {
     icon: "/images/s_6.png",
-    title: "Web Design + Development",
+    title: "Autonomous Agent Development",
     description:
-      "Take your business to the next level with our web design and development services",
+      "Take your business to the next level with our autonomous agent development services",
   },
   {
     icon: "/images/s_1.png",
-    title: "Search Engine Optimization",
+    title: "Chatbot Development",
     description:
-      "Get your website to the top of search engine results with our SEO services",
+      "Get your website to the top of search engine results with our chatbot development services",
   },
   {
     icon: "/images/s_5.png",
-    title: "Content Creation",
+    title: "Sales Automation",
     description:
-      "Boost your brand's online presence with our social media marketing services",
+      "Boost your brand's online presence with our sales automation services",
   },
   {
     icon: "/images/s_3.png",
-    title: "Social Media Marketing",
+    title: "Workflow Automation",
     description:
-      "Interact with your customers and increase sales with our email marketing services",
+      "Interact with your customers and increase sales with our workflow automation services",
   },
   {
     icon: "/images/s_4.png",
-    title: "Email Marketing",
+    title: "Enterprise Consulting",
     description:
-      "With our content creation services, we help businesses drive results",
+      "With our enterprise consulting services, we help businesses drive results",
   },
   {
     icon: "/images/s_2.png",
-    title: "Pay-Per-Click Advertising",
+    title: "Social Media Automation",
     description:
-      "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
+      "Don't waste money on ineffective advertising. Our social media automation services help you reach your target audience",
   },
 ];
 
