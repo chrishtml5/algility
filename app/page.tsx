@@ -215,25 +215,25 @@ export default function Home() {
             <BoxReveal boxColor={"#134023"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-[#15803d]" />
-                Design
+                Autonomous Agent Development
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#134023"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-[#15803d]" />
-                Development
+                Chatbot Development
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#134023"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-[#15803d]" />
-                Marketing
+                Sales Automation
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#134023"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-[#15803d]" />
-                Strategy
+                Workflow Automation
               </p>
             </BoxReveal>
           </div>
