@@ -22,7 +22,7 @@ import confetti from 'canvas-confetti';
 const services = [
   {
     icon: "/images/s_6.png",
-    title: "AI Agent Development",
+    title: "Autonomous Agents",
     description:
       "Take your business to the next level with our autonomous agent development services",
   },
