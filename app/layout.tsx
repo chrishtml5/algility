@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const font = Space_Grotesk({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
 
         {children}
         <Analytics />
+        <SpeedInsights />
 
       </body>
     </html>
