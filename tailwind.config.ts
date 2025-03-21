@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss"
 
-const config = {
+const config: Config = {
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
@@ -80,7 +80,7 @@ const config = {
             "background-position": "calc(100% + var(--shimmer-width, 200px)) 0",
           },
         },
-        'shine' : {
+        'shine': {
           from: {
             "backgroundPosition": "0 0"
           },
@@ -88,14 +88,13 @@ const config = {
             "backgroundPosition": "-200% 0"
           }
         },
-
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         'scroll': 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',
-        'shimmer' : 'shimmer 8s infinite',
-        'shine' : 'shine 2s  linear infinite',
+        'shimmer': 'shimmer 8s infinite',
+        'shine': 'shine 2s linear infinite',
       },
     },
   },
